@@ -166,6 +166,22 @@ body {
   border: solid black 1px;
 }
 
+.casestudy6 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  border: solid black 1px;
+}
+
+.intro4 {
+  float: right;
+  width: 37%;
+}
+
+.intro4 img {
+  border: solid black 1px;
+}
+
 .casestudy2 img {
   border: solid black 1px;
 }
@@ -194,6 +210,14 @@ body {
 
 }
 
+.noborder img {
+  border: transparent !important;
+}
+
+.clear img {
+  border: solid black 1px;
+}
+
 .clear {
   clear: left;
   display:block;
@@ -206,6 +230,10 @@ text-align: center;
 .pix img {
   border: solid black 1px;
 }
+
+.pix2 {
+  text-align: center;
+  }
 
 .alignleft {
   display: flex;
@@ -249,7 +277,7 @@ a {
 }
 
 a:hover {
-  color: #8800B8;
+  color: #8800B8 !important;
   font-weight: bold;
 }
 
