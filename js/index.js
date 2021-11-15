@@ -50,3 +50,13 @@ $(".finalproject").on({
         this.src='images/folder.png';
          }
     });
+
+/* scroll to */
+
+$("[href^='#']").click(function() {
+        id=$(this).attr("href")
+        $('html, body').animate({
+            scrollTop: $(id).offset().top
+        }, 500);
+    });
+

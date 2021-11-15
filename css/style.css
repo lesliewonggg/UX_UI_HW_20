@@ -13,6 +13,10 @@
   background-position: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 /* body */
 
@@ -53,6 +57,7 @@ body {
 
 /* text boxes */
 
+
 .container {
   position: absolute;
   text-align: justify;
@@ -67,27 +72,25 @@ body {
 }
 
 .containertext {
-  width: 900px;
+  width: 985px;
   height: 600px;
   position: fixed;
   top: 50%;
-  left: 48%;
+  left: 50%;
   transform: translate(-50%, -50%);
-}
-
-
-a {
-  color: #000083;
-  text-decoration: none;
 }
 
 .row {
   display: flex;
 }
 
+/* column stuff */
+
 .column1 {
   width: 400px;
   padding: 25px;
+  text-align: center;
+  justify-content: center;
 }
 
 .column2 {
@@ -96,6 +99,168 @@ a {
   padding: 15px;
   overflow-y: auto;
   height: 410px;
+  
+}
+
+
+
+.app {
+  float: left;
+  padding: 0px;
+  margin-right: 30px;
+
+}
+
+.explanation {
+  width: 950px;
+  padding: 10px;
+  height: 440px;
+  overflow-y: auto;
+}
+
+.intro {
+  width: 30%;
+  padding: 10px;
+  border: solid black 1px;
+  float: left;
+  
+}
+
+.casestudy2 {
+  float: right;
+  width: 70%;
+  text-align: right;
+}
+
+.intro2 {
+  width: 35%;
+  padding: 10px;
+  border: solid black 1px;
+  float: right;
+  
+}
+
+.casestudy3 {
+  float: left;
+  width: 55%;
+}
+
+.intro3 {
+  width: 44%;
+  padding: 10px;
+  border: solid black 1px;
+  float: left;
+  
+}
+
+.casestudy4 {
+  float: right;
+  width: 56%;
+  text-align: right;
+}
+
+.casestudy5 {
+  float: right;
+  width: 65%;
+  padding: 10px;
+  border: solid black 1px;
+}
+
+.casestudy2 img {
+  border: solid black 1px;
+}
+
+.casestudy3 img {
+  border: solid black 1px;
+}
+
+.casestudy4 img {
+  border: solid black 1px;
+}
+
+.casestudyheading {
+  display: flex;
+  align-items: center;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote img {
+  margin-right: 10px;
+
+}
+
+.clear {
+  clear: left;
+  display:block;
+}
+
+.pix {
+text-align: center;
+}
+
+.pix img {
+  border: solid black 1px;
+}
+
+.alignleft {
+  display: flex;
+  align-items: center;
+
+}
+
+.alignleft img {
+  margin-right: 10px;
+  border: solid black 1px;
+}
+
+.alignright {
+  display: flex;
+  align-items: center;
+
+}
+
+.alignright img {
+  margin-left: 10px;
+  border: solid black 1px;
+}
+
+/* font stuff */
+
+.intro li {
+  font-size: 16px;
+}
+
+.explanation p {
+  line-height: 20px;
+}
+
+.explanation p b {
+  color: #000083;
+}
+
+a {
+  color: #000083;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8800B8;
+  font-weight: bold;
+}
+
+p {
+  line-height : 18px;
+
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 36px;
 }
 
 h2 {
@@ -103,6 +268,17 @@ h2 {
   font-size: 24px;
   text-decoration: underline;
 }
+
+h4 {
+  font-weight: bold;
+}
+
+h4 a:hover {
+  color: #8800B8;
+  font-weight: bold;
+} 
+
+/* grid stuff */
 
 #gridContainer {
   margin: 0px 5%;
@@ -126,6 +302,19 @@ h2 {
   "michi plantae ourhouse"
   ;
 
+}
+
+#gridContainer3 {
+  font-size: 16px;
+  margin: 0px 5%;
+  text-align: center;
+  align-items: end;
+  display: grid;
+  grid-template-rows: 95px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "userresearch ideation prototyping testing finalthoughts"
+  ;
 }
 
 /* footer */
