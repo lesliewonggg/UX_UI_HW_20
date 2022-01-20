@@ -42,9 +42,9 @@ $(".ourhouse").on({
          }
     });
 
-$(".finalproject").on({
+$(".roomshui").on({
     "mouseover" : function() {
-        this.src = "images/finalproject.png";
+        this.src = "images/roomshui.png";
     },
     "mouseout" : function() {
         this.src='images/folder.png';

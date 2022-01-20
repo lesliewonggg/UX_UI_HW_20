@@ -315,7 +315,7 @@ h4 a:hover {
   grid-template-rows: 214px 214px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "finalproject ourhouse nps"
+  "roomshui ourhouse nps"
   "plantae michi"
   ;
 }
